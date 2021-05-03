@@ -1,0 +1,170 @@
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.25em;
+}
+.subtitulo,
+h4,
+h5 {
+  font-weight: 400;
+}
+#Ubicacion h2 {
+  margin: 1em auto;
+}
+#Anteriores h2 {
+  margin-bottom: 1em;
+}
+#Anteriores h3 {
+  margin: 1em auto;
+}
+.icononav {
+  width: 2rem;
+}
+.icononav svg {
+  fill: #ffffff;
+}
+.centrado {
+  text-align: center;
+}
+#subtítulo {
+  text-align: right;
+}
+.subtitulo {
+  font-weight: 400;
+}
+.fondoscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.fondoscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.fondocafe {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+.fondocafe h3,
+.fondocafe h5 {
+  margin-bottom: 0.5em;
+}
+.hero-section {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 7rem;
+}
+section,
+footer {
+  margin-top: 75px;
+}
+footer {
+  padding: 50px;
+}
+.speakertxt,
+.event,
+.speakerpic,
+.anteriores,
+.simposioimg,
+.simposiotxt {
+  display: inline-block;
+}
+.alcentro {
+  width: 1000px;
+  margin: 0 auto;
+}
+.speakerpic {
+  width: 25%;
+  vertical-align: middle;
+}
+.speakertxt {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed!important ;
+  width: 100vw;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+.simposiotxt {
+  vertical-align: middle;
+  white-space: normal;
+  text-align: justify;
+  line-height: 40px;
+}
+.simposiotxt p{
+  margin-bottom: 30px;
+}
+.post-1 {
+  width: 100%;
+  vertical-align: middle;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.menu2, .menu2 a{
+  background: #000f08;
+  color: #ffffff;
+  text-decoration: none;
+  position: static;
+}
+.alcentro h2, .post-1{
+  display: inline-block;
+}
+.alcentro2{
+  margin-top: 200px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.alcentro2 h2 {
+  text-align: left;
+  padding-top: 80px;
+}
+.event{
+  padding: 50px;
+}
